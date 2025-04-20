@@ -1,0 +1,17 @@
+name: quick_settings_tile_plugin
+version: 0.0.1
+description: Flutter plugin to manage Android Quick Settings tile.
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  quick_settings_tile_plugin_platform_interface:
+    path: ../quick_settings_tile_plugin_platform_interface
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: quick_settings_tile_plugin_android

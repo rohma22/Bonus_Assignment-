@@ -1,0 +1,10 @@
+name: quick_settings_tile_plugin_android
+version: 0.0.1
+description: Android implementation of quick_settings_tile_plugin.
+flutter:
+  plugin:
+    implements: quick_settings_tile_plugin
+    platforms:
+      android:
+        package: com.example.quicksettingstileplugin
+        pluginClass: QuickSettingsTilePlugin
